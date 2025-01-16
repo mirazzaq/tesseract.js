@@ -6,5 +6,5 @@ const defaultOptions = require("../../constants/defaultOptions");
  */
 module.exports = {
   ...defaultOptions,
-  workerPath: "/src/worker.min.js",
+  workerPath: `${__dirname}/../../worker.min.js`,
 };
